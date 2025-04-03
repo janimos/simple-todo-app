@@ -16,22 +16,22 @@
 1. Java (JDK 8+)
 2. SQLite JDBC draiveris:  
    Lejupielādēt šeit: [https://github.com/xerial/sqlite-jdbc/releases](https://github.com/xerial/sqlite-jdbc/releases)  
-   Piemēram: `sqlite-jdbc-3.36.0.3.jar`
+   Piemēram: `sqlite-jdbc-3.49.1.0.jar`
 
 ## 🚀 Kompilācija un palaišana
 
 ### 1. Kompilēšana
 ```bash
-javac TodoApp.java
+javac -cp "lib/sqlite-jdbc-3.49.1.0.jar" TodoApp.java
 ```
 
 ### 2. Palaišana
 ```bash
 # Windows
-java -cp ".;sqlite-jdbc-3.36.0.3.jar" TodoApp
+java -cp ".;lib/sqlite-jdbc-3.49.1.0.jar" TodoApp
 
 # Mac/Linux
-java -cp ".:sqlite-jdbc-3.36.0.3.jar" TodoApp
+java -cp ".:lib/sqlite-jdbc-3.49.1.0.jar" TodoApp
 ```
 
 ## 💡 Idejas paplašināšanai
